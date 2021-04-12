@@ -1,4 +1,4 @@
-# Generate n colors along a vector given to points along that vector
+# Generate n colors along a vector
 
 def get_vector(a, b):
     """Given two points (3D), Returns the common vector"""
