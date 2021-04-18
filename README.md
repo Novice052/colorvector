@@ -1,4 +1,4 @@
-#Color Vector
+# Color Vector
 
 A simple utility that given two colors in RBG format and a number of desired intervals, returns an array of colors
 evenly distributed between (and including) the two starting colors.
