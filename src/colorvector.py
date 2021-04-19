@@ -32,6 +32,3 @@ def get_palette(a, b, n):
         scalar = ((t[i] * vector[0]), (t[i] * vector[1]), (t[i] * vector[2]))
         palette.append((round(scalar[0] + a[0]), round(scalar[1] + a[1]), round(scalar[2] + a[2])))
     return palette
-
-
-print(get_palette((0, 0, 0), (239, 107, 252), 5))
