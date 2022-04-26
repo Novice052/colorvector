@@ -3,6 +3,15 @@
 A simple utility that given two colors in RBG format and a number of desired intervals, returns an array of colors
 evenly distributed between (and including) the two starting colors.
 
+## How to use it
+
+Import the ```get_palette``` function and feed it your starting and ending colors as arrays of three integers (e.g. [0,0,0] and [255,255,255]) and an integer representing the number of colors you want in the palette (includes the two colors you gave it).
+
+It will return an array of RBG values that fall on the vector between the starting and ending colors that are equidistant from each other (rounded to the nearest integer).
+
+So, if you give it: ```[0,0,0], [255,255,255], 3```
+It will return: ```[(0, 0, 0), (128, 128, 128), (255, 255, 255)]```
+
 ### How the math works:
 
 ```Point 1:  (1,2,3)    Point 2:  (5, 0, -1).  
